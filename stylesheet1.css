@@ -1,0 +1,56 @@
+*{
+    width:100%;
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+}
+
+#heading {
+    position: absolute;
+    font-family: Aileron;
+    font-weight: bold;
+    display: inline-block;
+    float: left;
+    margin: 200px auto auto 20px;
+    width: 80%;
+    color: white;
+    margin-left: 70px;
+    margin-top: 300px;
+}
+
+header {
+    background-image: url(Resources/frontpage.jpg), linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63));
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 500px;   
+    background-attachment: fixed;
+}
+
+.buttons  {
+    width: auto;
+    margin-top: 15px;
+    margin-right: 8px;
+    display: inline-block;
+    float: right;
+}
+
+a:link, a:visited {
+    margin-left: 5px;
+    display: inline-block;
+    float: left;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    border: solid 2px none;
+    border-radius: 3px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover,
+a:active {
+    color: #000000;
+    transition:color 0.2s;
+    background: white;
+    color: black;
+}
